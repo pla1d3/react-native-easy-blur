@@ -1,0 +1,31 @@
+{
+    "name": "react-native-easy-blur",
+    "version": "1.1.0",
+    "description": "React Native Easy Blur",
+    "main": "index.js",
+    "scripts": {
+      "adb": "adb reverse tcp:8081 tcp:8081 && adb reverse tcp:3000 tcp:3000 && adb reverse tcp:3010 tcp:3010",
+      "android": "react-native run-android && (npm run adb || true) && react-native log-android",
+      "ios": "react-native run-ios",
+      "start": "react-native start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:react-native-easy-blur.git"
+    },
+    "keywords": [
+      "react-native",
+      "ios",
+      "react-component"
+    ],
+    "author": "Simon Zhogot <xeywar@gmail.com> (https://github.com/simonprod)",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/react-native-easy-blur/issues"
+    },
+    "homepage": "https://github.com/react-native-easy-blur",
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    }
+}
